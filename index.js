@@ -2,7 +2,7 @@ var readlineSync = require("readline-sync");
 var score = 0
 function welcome() {
   var userId = readlineSync.question("May I have your name? ")
-  console.log("Welcome " + userId + "!!")
+  console.log("Welcome " + userId + "🖐")
   console.log("Hey " + userId + " Let's play Know Your Nation Quiz")
 }
 //array of objects
@@ -42,7 +42,7 @@ function quiz(question, answer) {
   }
 
   console.log("Current score:  ", score)
-  console.log("..................")
+  console.log(" ")
 }
 function game() {
   for (var i = 0; i < questions.length; i++) {
