@@ -8,23 +8,23 @@ function welcome() {
 //array of objects
 
 var questions = [{
-  question: "Which is the highest award in India? ",
-  answer: "Bharat Ratna"
+  question: "Which is the highest award in India? \na.Padam Award \nb.Param Vir Chakra \nc.Bharat Ratna \nd.Vir Chakra \nEnter your answer : ",
+  answer: "c"
 }, {
-  question: "Our National Tree is the : ",
-  answer: "Banyan Tree"
+  question: "Our National Tree is the : \na.Shisham tree \nb.Banyan tree \nc.Mango tree \nd.Teak tree \nEnter your answer : ",
+  answer: "b"
 },
 {
-  question: "National Motto of India  ",
-  answer: "Satyameva Jayate"
+  question: "National Motto of India? \na.One Nation One Culture \nb.Peace Work Fatherland \nc.Unity Work Progress \nd.Satyameva Jayate \nEnter your answer : ",
+  answer: "d"
 },
 {
-  question: "What is the name of India's National Aquatic Animal ",
-  answer: "River Dolphin"
+  question: "What is the name of India's National Aquatic Animal? \na.Shark \nb.Whale \nc.Dolphin \nd.Sunfish \nEnter your answer : ",
+  answer: "c"
 },
 {
-  question: "Which state has highest literacy rate ",
-  answer: "Kerala"
+  question: "Which state has highest literacy rate? \na.Kerala \nb.Bihar \nc.Tamilnade \nd.Gujrat \nEnter your answer : ",
+  answer: "a"
 }
 
 ];
